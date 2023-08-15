@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>17e6d85f-ac2d-41e4-9fa7-a0dd104c21cf</testSuiteGuid>
+   <testCaseLink>
+      <guid>a1ab4746-0ccf-4ca6-843d-d8b8a694491d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/openBrowser</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4aced6ee-7b1e-4a05-8b31-9274c0dd501c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Negative</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c9fa5784-6598-4e39-b75e-03e362421fd3</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/SauceDemo</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c9fa5784-6598-4e39-b75e-03e362421fd3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>52e6752b-edf9-4c6b-adc7-837e965225d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c9fa5784-6598-4e39-b75e-03e362421fd3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>ef08bb5e-a3d4-4b19-8650-c93c80879c87</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
